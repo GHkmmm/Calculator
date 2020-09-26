@@ -10,14 +10,20 @@ body {
   background-color: black;
   margin: auto;
 }
+.express,
 .result {
-  height: 100px;
-  width: 100%;
   color: aliceblue;
   text-align: right;
-  position: relative;
-  top: 20px;
-  font-size: 60px;
+  margin-top: 5px;
+}
+.express {
+  height: 60px;
+  width: 100%;
+  font-size: 50px;
+}
+.result {
+  height: 40px;
+  font-size: 24px;
 }
 .btn-group {
   list-style: none;
@@ -34,6 +40,7 @@ body {
   color: #FAFAFA;
   text-align: center;
   font-size: 24px;
+  cursor: pointer;
 }
 .delete-btn {
   width: 30px;
